@@ -42,7 +42,7 @@ public abstract class Command {
     public abstract CommandResult execute();
     
     /**
-     * Check command types that mutate data
+     * Returns true if command types mutate data
      */
     
     public abstract boolean isMutating();
